@@ -1,0 +1,14 @@
+{
+  "colleges": [
+    {"id": 1, "name": "Universidade Federal De Santa Catarina", "category": "Pública Federal", "organization": "Universidade","city": "Florianópolis", "state": "Santa Catarina", "region": "Sul"},
+    {"id": 2, "name": "Universidade Pitágoras Unopar Anhanguera", "category": "Privada com fins lucrativos", "organization": "Universidade","city": "Belém", "state": "Pará", "region": "Norte"},
+    {"id": 3, "name": "Instituto Federal De Educação Ciência E Tecnologia Da Bahia", "category": "Pública Federal", "organization": "Instituto Federal de Educação Ciência e Tecnologia","city": "Salvador", "state": "Bahia", "region": "Nordeste"},
+    {"id": 4, "name": "Centro Universitário De Brasília", "category": "Privada sem fins lucrativos", "organization": "Centro Universitário","city": "Brasília", "state": "Distrito Federal", "region": "Centro Oeste"},
+    {"id": 5, "name": "Centro Universitário Uniasselvi De Brusque", "category": "Privada com fins lucrativos", "organization": "Centro Universitário","city": "Brusque", "state": "Santa Catarina", "region": "Sul"},
+    {"id": 6, "name": "Fundação Universidade Do Estado De Santa Catarina", "category": "Pública Estadual", "organization": "Universidade","city": "Joinville", "state": "Santa Catarina", "region": "Sul"},
+    {"id": 7, "name": "Faculdade Estácio Do Amazonas - Estácio Amazonas", "category": "Privada com fins lucrativos", "organization": "Faculdade","city": "Manaus", "state": "Amazonas", "region": "Norte"},
+    {"id": 8, "name": "Universidade Pitágoras Unopar Anhanguera", "category": "Privada com fins lucrativos", "organization": "Universidade","city": "São Paulo", "state": "São Paulo", "region": "Sudeste"},
+    {"id": 9, "name": "Universidade De São Paulo", "category": "Pública Estadual", "organization": "Universidade","city": "São Paulo", "state": "São Paulo", "region": "Sudeste"},
+    {"id": 10, "name": "Pontifícia Universidade Católica De São Paulo", "category": "Privada sem fins lucrativos", "organization": "Universidade","city": "São Paulo", "state": "São Paulo", "region": "Sudeste"}
+  ]
+}
