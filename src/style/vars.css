@@ -1,8 +1,12 @@
 :root {
   /* FONT */
-  --font-dm-sans: 'Nunito Sans', sans-serif;
+  --font-ns-sans: 'Nunito Sans', sans-serif;
 
   /* COLORS */
   --color-orange: #F02A1C;
+  --color-orange-dark: #d12115;
   --color-white: #fff;
+
+  /* EFFECTS */
+  --shadow-orange: 0 0 0 0.2rem #ff9f98;
 }
