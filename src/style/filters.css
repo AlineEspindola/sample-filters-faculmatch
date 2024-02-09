@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.filters__selects {
+  width: 85vw;
+}
+
+.filters__selects-college {
+  display: flex;
+  flex-direction:column;
+  max-width: 20vw;
+}
+
+.filters__selects-college label {
+  margin-bottom: 3px;
+  font-family: var(--font-ns-sans);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.filters__selects-college input {
+  border-radius: 7px;
+}
