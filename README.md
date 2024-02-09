@@ -13,12 +13,6 @@ Apresento para vocês uma amostra dos filtros da FaculMatch, um site que reúne 
 
 Este repositório serve para vocês terem um gostinho de como será o site FaculMatch. Como é uma demostração, não é 100% fiel ao site original, assim como as informações contendo nele são ilustrativas.
 
-<div align="center">
-<img src="https://github.com/AlineEspindola/Landing-Page-FaculMatch/assets/117865319/3264f903-809b-49fe-b5fa-4f47287cc12a" />
-</div>
-
-https://github.com/AlineEspindola/Landing-Page-FaculMatch/assets/117865319/20f3bb2b-b32a-4459-bc7f-e21e1767a179
-
 <hr>
 
 <div align="center">
