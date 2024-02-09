@@ -23,7 +23,7 @@
 
 .filters__selects-college input {
   font-size: var(--font-size-medium);
-  border-radius: 7px;
+  border-radius: 9px;
   padding: 5px;
   background-color: #F4F4F4;
   border: 0;
