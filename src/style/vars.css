@@ -1,4 +1,8 @@
 :root {
   /* FONT */
   --font-dm-sans: 'Nunito Sans', sans-serif;
+
+  /* COLORS */
+  --color-orange: #F02A1C;
+  --color-white: #fff;
 }

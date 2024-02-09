@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="/src/style/vars.css">
     <link rel="stylesheet" href="/src/style/container.css">
     <link rel="stylesheet" href="./src/style/navigation.css">
 
@@ -21,32 +22,34 @@
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img src="./src/assets/icons/logo-faculmatch.png" alt="Logo da FaculMatch"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Início</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Sobre</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Faculdades</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+      <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html"><img src="./src/assets/icons/logo-faculmatch.png" alt="Logo da FaculMatch"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+              <li class="nav-item active">
+                <a class="nav-link decoration-line" href="#">Início</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link decoration-line" href="#">Sobre</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link decoration-line" href="#">Faculdades</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link decoration-line" href="#">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Filtros</button>
+            </form>
+          </div>
+        </nav>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

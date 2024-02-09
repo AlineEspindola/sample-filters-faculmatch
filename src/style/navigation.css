@@ -1,10 +1,42 @@
 .navbar {
   background-color: white !important;
+  max-width: 90vw;
 }
 
-.navbar .navbar-nav {
-  margin: 0rem 10rem 0rem 10rem;
-  gap: 24px;
+.navigation .navbar-nav {
+  gap: 30px;
   font-family: var(--font-ns-sans);
   font-weight: 600;
+  font-size: 1rem;
+}
+
+.decoration-line {
+  position: relative;
+}
+
+.decoration-line::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-orange);
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .decoration-line:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+.navigation .d-flex .btn {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-size: 1.3rem;
+  border-radius: 30px;
+  padding: 0.7rem 1.8rem;
 }
