@@ -1,0 +1,10 @@
+.navbar {
+  background-color: white !important;
+}
+
+.navbar .navbar-nav {
+  margin: 0rem 10rem 0rem 10rem;
+  gap: 24px;
+  font-family: var(--font-ns-sans);
+  font-weight: 600;
+}
