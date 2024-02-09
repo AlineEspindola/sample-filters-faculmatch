@@ -7,8 +7,12 @@
   --color-orange: #F02A1C;
   --color-orange-dark: #d12115;
   --color-white: #fff;
-  --color-gray: #433F3D;
+  --color-gray: #F4F4F4;
+  --color-gray-dark: #433F3D;
 
   /* EFFECTS */
   --shadow-orange: 0 0 0 0.2rem #ff9f98;
+
+  /* SIZES */
+  --font-size-medium: 1.2rem;
 }

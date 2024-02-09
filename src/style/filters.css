@@ -11,16 +11,22 @@
 .filters__selects-college {
   display: flex;
   flex-direction:column;
-  max-width: 20vw;
+  max-width: 17rem;
 }
 
 .filters__selects-college label {
   margin-bottom: 3px;
-  font-family: var(--font-ns-sans);
+  font-family: var(--color-gray);
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: var(--font-size-medium);
 }
 
 .filters__selects-college input {
+  font-size: var(--font-size-medium);
   border-radius: 7px;
+  padding: 5px;
+  background-color: #F4F4F4;
+  border: 0;
 }
+
+
