@@ -5,14 +5,19 @@
 
 .navigation .navbar {
   background-color: white !important;
+  width: 90vw;
 }
 
 .navigation .navbar-nav {
   gap: 30px;
-  margin: 0 13vw 0 13vw;
+  margin: auto;
   font-family: var(--font-ns-sans);
   font-weight: 600;
   font-size: 1rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: space-between;
 }
 
 .decoration-line {
@@ -59,4 +64,10 @@
 
 .navigation .d-flex .btn:focus {
   box-shadow: var(--shadow-orange);
+}
+
+hr {
+  width: 90vw;
+  margin-top: 0;
+  margin-bottom: 0;
 }

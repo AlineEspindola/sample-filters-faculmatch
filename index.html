@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 
     <!-- Lib -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -18,6 +19,8 @@
     <link rel="stylesheet" href="/src/style/vars.css">
     <link rel="stylesheet" href="/src/style/container.css">
     <link rel="stylesheet" href="./src/style/navigation.css">
+    <link rel="stylesheet" href="./src/style/header.css">
+    <link rel="stylesheet" href="./src/style/media-queries.css">
 
     <title>Amostra: Filtros da FaculMatch</title>
   </head>
@@ -25,7 +28,8 @@
     <div class="container-fluid">
       <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html"><img src="./src/assets/icons/logo-faculmatch.png" alt="Logo da FaculMatch"></a>
+          <a class="navbar-brand big" href="index.html"><img src="./src/assets/icons/logo-faculmatch-big.png" alt="Logo da FaculMatch"></a>
+          <a class="navbar-brand small" href="index.html"><img src="./src/assets/icons/logo-faculmatch-small.png" alt="Logo da FaculMatch"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,10 +49,33 @@
               </li>
             </ul>
             <form class="d-flex">
-              <button class="btn btn-outline-success" type="submit">Filtros</button>
+              <button class="btn" type="submit">Filtros</button>
             </form>
           </div>
         </nav>
+      </div>
+      <hr>
+
+      <div class="header-body">
+        <header>
+          <div class="header-body__title">
+            <span style="color: var(--color-gray)">Explore sua</span>
+            <span style="color: var(--color-orange)">jornada acadêmica!</span>
+          </div>
+        </header>
+      </div>
+
+      <div class="filters">
+        <div class="filters__selects">
+          <div class="filters__selects-college">
+            <label for="college">Faculdade</label>
+            <input list="colleges" name="college" id="college"> 
+            <datalist id="colleges">
+              <option value=""></option>
+            </datalist>
+          </div>
+
+        </div>
       </div>
     </div>
 

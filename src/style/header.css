@@ -1,0 +1,15 @@
+.header-body {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: 85vw;
+}
+
+.header-body__title {
+  margin-top: 3.5rem;
+  font-weight: 900;
+  font-size: 2.7rem;
+  font-family: var(--font-roboto-sans);
+}

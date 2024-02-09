@@ -1,0 +1,15 @@
+@media screen and (max-width: 992px) {
+  .navigation .navbar-nav {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .small {
+    display: block;
+  }
+
+  .big {
+    display: none;
+  }
+}
