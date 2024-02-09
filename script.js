@@ -2,10 +2,10 @@ function getColleges() {
   const url = `http://localhost:3000/colleges`;
   fetch(url)
     .then((response) => response.json())
-    .then((result) => displayResults(result));
+    .then((result) => displayResult(result));
 }
 
-function displayResults(result) {
+function displayResult(result) {
   const namesColleges = document.getElementsByClassName("name-college");
 
   for(i = 0; i < namesColleges.length; i++) {
