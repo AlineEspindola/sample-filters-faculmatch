@@ -43,10 +43,6 @@
   }
 }
 
-.navigation .d-flex {
-  align-items: center;
-}
-
 .navigation .d-flex .btn {
   background-color: var(--color-orange);
   color: var(--color-white);

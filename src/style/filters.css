@@ -1,6 +1,7 @@
 .filters {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 2rem;
 }
 
@@ -11,11 +12,11 @@
 .filters__selects-college {
   display: flex;
   flex-direction:column;
-  max-width: 17rem;
+  max-width: 19rem;
 }
 
 .filters__selects-college label {
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   font-family: var(--color-gray);
   font-weight: 600;
   font-size: var(--font-size-medium);
@@ -29,4 +30,28 @@
   border: 0;
 }
 
+.filters .filters__button {
+  display: flex;
+  justify-content: right;
+  width: 85vw;
+  margin-top: 3rem;
+}
 
+.filters .filters__button .btn {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-size: 1.3rem;
+  font-family: var(--font-ns-sans);
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+}
+
+.filters .filters__button .btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-orange-dark);
+}
+
+.filters .filters__button .btn:focus {
+  box-shadow: var(--shadow-orange);
+}
