@@ -15,6 +15,23 @@ Este repositório serve para vocês terem um gostinho de como será o site Facul
 
 <hr>
 
+### Como iniciar o servidor com python
+> Requer python instalado na maquina!
+
+Abra um novo terminal na raiz do projeto
+use o comando a seguir
+
+    python -m http.server 3000
+
+### Abrir tunel para WEB com Serveo
+
+Abra um novo terminal, independe de estar na raiz ou não
+use o comando a seguir
+
+    ssh -R 80:localhost:3000 serveo.net
+
+Para mais informações, [acesse](https://serveo.net/)
+
 <div align="center">
 
 <h3>꧁ 📕 UI Designer, Desenvolvedora Front-end e Gestora de Projeto: Aline Espindola 📕 ꧂</h3>
