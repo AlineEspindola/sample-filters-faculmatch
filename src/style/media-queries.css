@@ -4,6 +4,16 @@
   }
 }
 
+@media screen and (max-width: 570px) {
+  .colleges {
+    padding: 6rem 2rem;
+  }
+
+  .colleges .colleges__title h1 {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .small {
     display: block;
@@ -12,4 +22,28 @@
   .big {
     display: none;
   }
+
+  .colleges .colleges__cards .card {
+    display: flex;
+    align-items: center;
+  }
+
+  .filters .filters__button {
+    justify-content: center;
+  }
+
+  .colleges .card__figure img,.colleges .card__text {
+    max-width: 80vw;
+  }
+
+  .colleges .card__main-text {
+    gap: 20px;
+  }
 }
+
+@media screen and (max-width: 352px) {
+  .colleges .card__secondary-text h3 {
+    margin-top: 0.4rem;
+  }
+}
+/* 352 */

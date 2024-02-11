@@ -1,0 +1,60 @@
+.colleges {
+  padding: 6rem 6rem;
+}
+
+.colleges .colleges__title h1 {
+  font-size: 1.8rem;
+  font-family: var(--font-ns-sans);
+  font-weight: 600;
+  color: black;
+}
+
+.colleges .colleges__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 310px);
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 4.5rem;
+}
+
+.colleges .colleges__cards .card {
+  border: 0;
+}
+
+.colleges .card__figure {
+  display: flex;
+  justify-content: center;
+}
+
+.colleges .card__text {
+  margin-top: 1rem;
+}
+
+.colleges .card__main-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colleges .card__main-text h2 {
+  font-family: var(--font-ns-sans);
+  font-size: var(--font-size-medium);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.colleges .card__main-text button {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-size: 0.8rem;
+  font-family: var(--font-ns-sans);
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+}
+
+.colleges .card__secondary-text h3 {
+  font-size: 0.8rem;
+  font-family: var(--font-ns-sans);
+  font-weight: 600;
+}
