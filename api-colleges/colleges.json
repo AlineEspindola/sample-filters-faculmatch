@@ -9,6 +9,17 @@
     {"id": 7, "name": "Estácio", "category": "Privada com fins lucrativos", "organization": "Faculdade","city": "Manaus", "state": "Amazonas", "region": "Norte"},
     {"id": 8, "name": "Unopar", "category": "Privada com fins lucrativos", "organization": "Universidade","city": "São Paulo", "state": "São Paulo", "region": "Sudeste"},
     {"id": 9, "name": "USP", "category": "Pública Estadual", "organization": "Universidade","city": "São Paulo", "state": "São Paulo", "region": "Sudeste"},
-    {"id": 10, "name": "PUC-SP", "category": "Privada sem fins lucrativos", "organization": "Universidade","city": "São Paulo", "state": "São Paulo", "region": "Sudeste"}
+    {"id": 10, "name": "PUC-SP", "category": "Privada sem fins lucrativos", "organization": "Universidade","city": "São Paulo", "state": "São Paulo", "region": "Sudeste"},
+    {"id": 11, "name": "UEMS", "category": "Pública Estadual", "organization": "Universidade", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},
+    {"id": 12, "name": "UFGD", "category": "Pública Federal", "organization": "Universidade", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},
+    {"id": 13, "name": "IFMS", "category": "Pública Federal", "organization": "Instituto Federal de Educação Ciência e Tecnologia", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},
+    {"id": 14, "name": "UFMS", "category": "Pública Federal", "organization": "Universidade", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},
+    {"id": 15, "name": "UCDB", "category": "Privada", "organization": "Universidade", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},  
+    {"id": 16, "name": "FCG", "category": "Privada", "organization": "Faculdade", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},  
+    {"id": 17, "name": "FACSUL", "category": "Privada", "organization": "Faculdade", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},  
+    {"id": 18, "name": "AEMS", "category": "Privada", "organization": "Faculdade", "city": "Três Lagoas", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},  
+    {"id": 19, "name": "UNAES", "category": "Privada", "organization": "Centro Universitário", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},  
+    {"id": 20, "name": "UNIDERP", "category": "Privada", "organization": "Universidade", "city": "Campo Grande", "state": "Mato Grosso do Sul", "region": "Centro Oeste"},  
+    {"id": 21, "name": "UNIGRAN", "category": "Privada", "organization": "Universidade", "city": "Dourados", "state": "Mato Grosso do Sul", "region": "Centro Oeste"}  
   ]
 }
