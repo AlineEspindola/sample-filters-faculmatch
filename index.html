@@ -71,185 +71,185 @@
       <div class="filters">
         <div class="filters__selects">
           <div class="filters__selects-college">
-            <label for="college">Faculdade</label>
-            <input list="colleges" name="college" id="college"> 
+            <label for="input-name-college">Faculdade</label>
+            <input list="colleges" name="input-name-college" id="input-name-college">
             <datalist id="colleges">
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
-              <option class="name-college" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
+              <option class="name-college-select" value=""></option>
             </datalist>
           </div>
         </div>
 
         <div class="filters__button">
-          <button class="btn" type="submit">Procurar</button>
+          <button id="button-search" class="btn" type="submit">Procurar</button>
         </div>
       </div>
 
       <div class="colleges">
         <div class="colleges__body">
-          <div class="colleges__title">
+          <div class="colleges__title hidden">
             <h1>Faculdades encontradas para você</h1>
-            <div class="colleges__cards row row-cols">
+          </div>
+          <div class="colleges__cards row row-cols">
 
-              <div class="card card1">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/1.png" alt="Desenho de uma faculdade">
+            <div class="card card1 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/1.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
                 </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
                 </div>
               </div>
-
-              <div class="card card2">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/2.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card card3">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/3.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card card4">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/4.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card card5">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/5.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card card6">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/6.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card card7">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/7.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card card8">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/8.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card card9">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/9.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card card10">
-                <div class="card__figure">
-                  <img src="./src/assets/college-figures/10.png" alt="Desenho de uma faculdade">
-                </div>
-                <div class="card__text">
-                  <div class="card__main-text">
-                    <h2>Nome da Faculdade</h2>
-                    <button class="btn" type="submit">Ver</button>
-                  </div>
-                  <div class="card__secondary-text">
-                    <h3>Cidade | Estado</h3>
-                  </div>
-                </div>
-              </div>
-
             </div>
+
+            <div class="card card2 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/2.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card3 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/3.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card4 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/4.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card5 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/5.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card6 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/6.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card7 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/7.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card8 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/8.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card9 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/9.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card10 hidden">
+              <div class="card__figure">
+                <img src="./src/assets/college-figures/10.png" alt="Desenho de uma faculdade">
+              </div>
+              <div class="card__text">
+                <div class="card__main-text">
+                  <h2>Nome da Faculdade</h2>
+                  <button class="btn" type="submit">Ver</button>
+                </div>
+                <div class="card__secondary-text">
+                  <h3>Cidade | Estado</h3>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

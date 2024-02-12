@@ -9,6 +9,14 @@
   color: black;
 }
 
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
 .colleges .colleges__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, 310px);
@@ -19,6 +27,8 @@
 
 .colleges .colleges__cards .card {
   border: 0;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .colleges .card__figure {
@@ -28,6 +38,7 @@
 
 .colleges .card__text {
   margin-top: 1rem;
+  width: 100%;
 }
 
 .colleges .card__main-text {
@@ -46,11 +57,15 @@
 .colleges .card__main-text button {
   background-color: var(--color-orange);
   color: var(--color-white);
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: var(--font-ns-sans);
   font-weight: 700;
   border-radius: 30px;
   padding: 0.7rem 2rem;
+}
+
+.colleges .card__secondary-text {
+  max-width: 40vw;
 }
 
 .colleges .card__secondary-text h3 {

@@ -1,7 +1,7 @@
 {
   "colleges": [
     {"id": 1, "name": "UFSC", "category": "Pública Federal", "organization": "Universidade","city": "Florianópolis", "state": "Santa Catarina", "region": "Sul"},
-    {"id": 2, "name": "Unopar", "category": "Privada com fins lucrativos", "organization": "Universidade","city": "Belém", "state": "Pará", "region": "Norte"},
+    {"id": 2, "name": "UFRJ", "category": "Pública Federal", "organization": "Universidade","city": "Rio De Janeiro", "state": "Rio De Janeiro", "region": "Sudeste"},
     {"id": 3, "name": "IFBA", "category": "Pública Federal", "organization": "Instituto Federal de Educação Ciência e Tecnologia","city": "Salvador", "state": "Bahia", "region": "Nordeste"},
     {"id": 4, "name": "CEUB", "category": "Privada sem fins lucrativos", "organization": "Centro Universitário","city": "Brasília", "state": "Distrito Federal", "region": "Centro Oeste"},
     {"id": 5, "name": "Uniasselvi", "category": "Privada com fins lucrativos", "organization": "Centro Universitário","city": "Brusque", "state": "Santa Catarina", "region": "Sul"},
