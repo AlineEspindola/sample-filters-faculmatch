@@ -39,11 +39,13 @@ function displaySubtexto(result, subtextCollegesCards) {
 buttonSearch.addEventListener("click", function() {
   const inputNameCollege = document.getElementById("input-name-college");
   const cardsCollege = document.getElementsByClassName("card");
+  const collegesTitle = document.getElementById("colleges-title");
 
   for(i = 0; i < cardsCollege.length; i++) {
-    if (namesCollegesCards[i].innerText.toLowerCase() === inputNameCollege.value.toLowerCase()) {
+    if (namesCollegesCards[i].innerText.toLowerCase().includes(inputNameCollege.value.toLowerCase())) {
       cardsCollege[i].classList.remove("hidden");
       cardsCollege[i].classList.add("visible");
+      collegesTitle.classList.add("visible");
     } else {
       cardsCollege[i].classList.add("hidden");
       cardsCollege[i].classList.remove("visible");
