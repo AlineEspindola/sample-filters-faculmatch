@@ -1,3 +1,20 @@
+@media screen and (max-width: 1300px) {
+  .footer-body .footer__content {
+    flex-direction: column;
+  }
+
+  .footer__content .footer__logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__content .footer__figure {
+    display: flex;
+    justify-content: right;
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .navigation .navbar-nav {
     gap: 0;
@@ -8,6 +25,19 @@
   } 
 }
 
+@media screen and (max-width: 640px) {
+  .footer__content .footer__text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__content .footer__text-list {
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 570px) {
   .colleges {
     padding: 6rem 2rem;
@@ -15,6 +45,14 @@
 
   .colleges .colleges__title h1 {
     text-align: center;
+  }
+
+  .footer__content .footer__logo img{
+    max-width: 70vw;
+  }
+
+  .footer__content .footer__figure img {
+    max-width: 70vw;
   }
 }
 
@@ -25,6 +63,14 @@
 
   .big {
     display: none;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  .visible {
+    display: flex !important;
   }
 
   .colleges .colleges__cards .card {
