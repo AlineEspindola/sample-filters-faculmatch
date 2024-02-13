@@ -64,8 +64,17 @@
   padding: 0.7rem 2rem;
 }
 
+.colleges .card__main-text button:hover {
+  color: var(--color-white);
+  background-color: var(--color-orange-dark);
+}
+
+.colleges .card__main-text button:focus {
+  box-shadow: var(--shadow-orange);
+}
+
 .colleges .card__secondary-text {
-  max-width: 40vw;
+  max-width: 15vw;
 }
 
 .colleges .card__secondary-text h3 {

@@ -2,27 +2,34 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .filters__selects {
-  width: 85vw;
+  width: 84.9vw;
+  gap: 6vw;
 }
 
-.filters__selects-college {
+.col {
+  padding: 0;
+  margin: 0;
+}
+
+.filters__selects-college,.filters__selects-organization {
   display: flex;
-  flex-direction:column;
-  max-width: 19rem;
+  flex-direction: column;
+  max-width: 300px;
+  min-width: 260px;
 }
 
-.filters__selects-college label {
+.filters__selects-college label,.filters__selects-organization label {
   margin-bottom: 8px;
   font-family: var(--color-gray);
   font-weight: 600;
   font-size: var(--font-size-medium);
 }
 
-.filters__selects-college input {
+.filters__selects-college input,.filters__selects-organization input {
   font-size: var(--font-size-medium);
   border-radius: 9px;
   padding: 5px;
@@ -34,7 +41,7 @@
   display: flex;
   justify-content: right;
   width: 85vw;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .filters .filters__button a {

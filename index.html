@@ -69,8 +69,9 @@
       </div>
 
       <div class="filters">
-        <div class="filters__selects">
-          <div class="filters__selects-college">
+        <div class="filters__selects row row-cols-2">
+          
+          <div class="filters__selects-college col">
             <label for="input-name-college">Faculdade</label>
             <input list="colleges" name="input-name-college" id="input-name-college">
             <datalist id="colleges">
@@ -84,6 +85,17 @@
               <option class="name-college-select" value=""></option>
               <option class="name-college-select" value=""></option>
               <option class="name-college-select" value=""></option>
+            </datalist>
+          </div>
+
+          <div class="filters__selects-organization col">
+            <label for="input-organization">Organização</label>
+            <input list="organizations" name="input-name-college" id="input-organization">
+            <datalist id="organizations">
+              <option class="organization-select" value=""></option>
+              <option class="organization-select" value=""></option>
+              <option class="organization-select" value=""></option>
+              <option class="organization-select" value=""></option>
             </datalist>
           </div>
         </div>
