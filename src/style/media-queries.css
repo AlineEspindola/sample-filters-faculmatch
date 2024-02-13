@@ -2,6 +2,10 @@
   .navigation .navbar-nav {
     gap: 0;
   }
+
+  .colleges .without-results__figure img {
+    max-width: 70vw;
+  } 
 }
 
 @media screen and (max-width: 570px) {

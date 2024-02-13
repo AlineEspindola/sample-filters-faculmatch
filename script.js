@@ -49,7 +49,6 @@ buttonSearch.addEventListener("click", function() {
     } else {
       cardsCollege[i].classList.add("hidden");
       cardsCollege[i].classList.remove("visible");
-      collegesTitle.classList.add("hidden");
     }
   };
 });
