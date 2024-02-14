@@ -53,6 +53,9 @@
   font-size: var(--font-size-medium);
 }
 
+.filters__checkboxs-modality input[type = 'checkbox'] {
+  accent-color: var(--color-orange);
+}
 
 .filters__checkboxs-modality .form-check-label {
   font-family: var(--color-gray);
