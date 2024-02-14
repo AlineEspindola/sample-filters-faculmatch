@@ -3,9 +3,10 @@
   align-items: center;
   flex-direction: column;
   margin-top: 3rem;
+  gap: 3rem;
 }
 
-.filters__datalists {
+.filters__datalists,.filters__checkboxs {
   width: 84.9vw;
   gap: 6vw;
 }
@@ -26,6 +27,7 @@
   margin-bottom: 8px;
   font-family: var(--color-gray);
   font-weight: 600;
+  color: black;
   font-size: var(--font-size-medium);
 }
 
@@ -36,6 +38,29 @@
   background-color: #F4F4F4;
   border: 0;
 }
+
+.filters__checkboxs-modality {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  min-width: 260px;
+}
+
+.filters__checkboxs-modality .labelModality {
+  font-family: var(--color-gray);
+  font-weight: 600;
+  color: black;
+  font-size: var(--font-size-medium);
+}
+
+
+.filters__checkboxs-modality .form-check-label {
+  font-family: var(--color-gray);
+  font-weight: 400;
+  color: black;
+  font-size: 1rem;
+}
+
 
 .filters .filters__button {
   display: flex;
