@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   margin-top: 3rem;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .filters__datalists,.filters__checkboxs,.filters__sliders {
