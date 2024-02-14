@@ -1,5 +1,5 @@
-const namesCollegesSelect = document.getElementsByClassName("name-college-select");
-const organizationsSelect = document.getElementsByClassName("organization-select");
+const namesCollegesDatalist = document.getElementsByClassName("name-college-datalist");
+const organizationsDatalist = document.getElementsByClassName("organization-datalist");
 const namesCollegesCards = document.getElementsByTagName("h2");
 const subtextCollegesCards = document.getElementsByTagName("h3");
 const buttonSearch = document.getElementById("button-search");
@@ -10,8 +10,8 @@ function getColleges() {
   fetch(url)
     .then((response) => response.json())
     .then((result) => {
-      displaySelect(result, namesCollegesSelect, "name");
-      displaySelect(result, organizationsSelect, "organization");
+      displayDatalist(result, namesCollegesDatalist, "name");
+      displayDatalist(result, organizationsDatalist, "organization");
       displayNamesColleges(result, namesCollegesCards);
       displaySubtexto(result, subtextCollegesCards);
     })
@@ -20,7 +20,7 @@ function getColleges() {
     })
 }
 
-function displaySelect(result, selects, type) {
+function displayDatalist(result, datalists, type) {
   const resultArray = [];
 
   for(i = 0; i < 10; i++) { //Ver forma de pegar o tamanho do json
@@ -29,8 +29,8 @@ function displaySelect(result, selects, type) {
 
   const resultArrayFiltered = resultArray.filter((item, index) => resultArray.indexOf(item) === index);
 
-  for(i = 0; i < selects.length; i++) {
-    selects[i].value = resultArrayFiltered[i];
+  for(i = 0; i < datalists.length; i++) {
+    datalists[i].value = resultArrayFiltered[i];
   }
 }
 
@@ -51,7 +51,8 @@ buttonSearch.addEventListener("click", function() {
   const inputOrganization = document.getElementById("input-organization");
   const cardsCollege = document.getElementsByClassName("card");
   const collegesTitle = document.getElementById("colleges-title");
-  collegesTitle.classList.add("visible");
+  const withoutResults = document.getElementById("without-results");
+  var haveColleges = false;
 
   if (inputNameCollege.value && inputOrganization.value) {
     for(i = 0; i < cardsCollege.length; i++) {
@@ -59,6 +60,8 @@ buttonSearch.addEventListener("click", function() {
         if (subtextCollegesCards[i].innerText.toLowerCase().includes(inputOrganization.value.toLowerCase())) {
           cardsCollege[i].classList.remove("hidden");
           cardsCollege[i].classList.add("visible");
+
+          haveColleges = true;
         } else {
           cardsCollege[i].classList.add("hidden");
           cardsCollege[i].classList.remove("visible");
@@ -74,6 +77,8 @@ buttonSearch.addEventListener("click", function() {
       if (namesCollegesCards[i].innerText.toLowerCase().includes(inputNameCollege.value.toLowerCase())) {
         cardsCollege[i].classList.remove("hidden");
         cardsCollege[i].classList.add("visible");
+
+        haveColleges = true;
       } else {
         cardsCollege[i].classList.add("hidden");
         cardsCollege[i].classList.remove("visible");
@@ -84,6 +89,8 @@ buttonSearch.addEventListener("click", function() {
       if (subtextCollegesCards[i].innerText.toLowerCase().includes(inputOrganization.value.toLowerCase())) {
         cardsCollege[i].classList.remove("hidden");
         cardsCollege[i].classList.add("visible");
+
+        haveColleges = true;
       } else {
         cardsCollege[i].classList.add("hidden");
         cardsCollege[i].classList.remove("visible");
@@ -93,8 +100,23 @@ buttonSearch.addEventListener("click", function() {
     for(i = 0; i < cardsCollege.length; i++) {
       cardsCollege[i].classList.remove("hidden");
       cardsCollege[i].classList.add("visible");
+
+      haveColleges = true;
     }
   };
+
+  if (haveColleges) {
+    collegesTitle.classList.remove("hidden");
+    collegesTitle.classList.add("visible");
+    withoutResults.classList.add("hidden");
+    withoutResults.classList.remove("visible");
+  } else {
+    collegesTitle.classList.add("hidden");
+    collegesTitle.classList.remove("visible");
+    withoutResults.classList.remove("hidden");
+    withoutResults.classList.add("visible");
+  };
+
 });
 
 document.addEventListener("DOMContentLoaded", function () {

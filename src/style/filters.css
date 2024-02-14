@@ -5,7 +5,7 @@
   margin-top: 3rem;
 }
 
-.filters__selects {
+.filters__datalists {
   width: 84.9vw;
   gap: 6vw;
 }
@@ -15,21 +15,21 @@
   margin: 0;
 }
 
-.filters__selects-college,.filters__selects-organization {
+.filters__datalists-college,.filters__datalists-organization {
   display: flex;
   flex-direction: column;
   max-width: 300px;
   min-width: 260px;
 }
 
-.filters__selects-college label,.filters__selects-organization label {
+.filters__datalists-college label,.filters__datalists-organization label {
   margin-bottom: 8px;
   font-family: var(--color-gray);
   font-weight: 600;
   font-size: var(--font-size-medium);
 }
 
-.filters__selects-college input,.filters__selects-organization input {
+.filters__datalists-college input,.filters__datalists-organization input {
   font-size: var(--font-size-medium);
   border-radius: 9px;
   padding: 5px;

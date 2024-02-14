@@ -95,5 +95,9 @@
     display: flex;
     justify-content: center;
   }
+
+  .colleges .without-results {
+    flex-direction: column;
+  }
 }
 

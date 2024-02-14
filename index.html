@@ -70,35 +70,39 @@
       </div>
 
       <div class="filters">
-        <div class="filters__selects row row-cols-2">
+        <div class="filters__datalists row row-cols-2">
           
-          <div class="filters__selects-college col">
+          <div class="filters__datalists-college col">
             <label for="input-name-college">Faculdade</label>
             <input list="colleges" name="input-name-college" id="input-name-college">
             <datalist id="colleges">
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
-              <option class="name-college-select" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
+              <option class="name-college-datalist" value=""></option>
             </datalist>
           </div>
 
-          <div class="filters__selects-organization col">
+          <div class="filters__datalists-organization col">
             <label for="input-organization">Organização</label>
             <input list="organizations" name="input-name-college" id="input-organization">
             <datalist id="organizations">
-              <option class="organization-select" value=""></option>
-              <option class="organization-select" value=""></option>
-              <option class="organization-select" value=""></option>
-              <option class="organization-select" value=""></option>
+              <option class="organization-datalist" value=""></option>
+              <option class="organization-datalist" value=""></option>
+              <option class="organization-datalist" value=""></option>
+              <option class="organization-datalist" value=""></option>
             </datalist>
           </div>
+        </div>
+
+        <div class="filters__checkboxs">
+          
         </div>
 
         <div class="filters__button">
@@ -264,7 +268,7 @@
             </div>
 
           </div>
-          <div class="without-results hidden">
+          <div class="without-results hidden" id="without-results">
             <div class="without-results__figure">
               <img src="./src/assets/figure-without-results.png" alt="Figura de uma garota confusa com falta de resultados">
             </div>
