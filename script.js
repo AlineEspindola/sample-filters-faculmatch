@@ -100,3 +100,4 @@ buttonSearch.addEventListener("click", function() {
 document.addEventListener("DOMContentLoaded", function () {
   getColleges();
 });
+
