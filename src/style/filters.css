@@ -3,10 +3,10 @@
   align-items: center;
   flex-direction: column;
   margin-top: 3rem;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
-.filters__datalists,.filters__checkboxs {
+.filters__datalists,.filters__checkboxs,.filters__sliders {
   width: 84.9vw;
   gap: 6vw;
 }
@@ -39,37 +39,52 @@
   border: 0;
 }
 
-.filters__checkboxs-modality {
+.filters__checkboxs-modality,.filters__checkboxs-degree,.filters__sliders-vacancie,.filter__sliders-hours {
   display: flex;
   flex-direction: column;
   max-width: 350px;
   min-width: 260px;
 }
 
-.filters__checkboxs-modality .labelModality {
+.filters__checkboxs-modality label,.filters__checkboxs-degree label,.filters__sliders-vacancies label,.filters__sliders-hours label {
   font-family: var(--color-gray);
   font-weight: 600;
   color: black;
   font-size: var(--font-size-medium);
 }
 
-.filters__checkboxs-modality input[type = 'checkbox'] {
+.filters input[type = 'checkbox'] {
   accent-color: var(--color-orange);
 }
 
-.filters__checkboxs-modality .form-check-label {
+.filters__checkboxs-modality .form-check-label,.filters__checkboxs-degree .form-check-label {
   font-family: var(--color-gray);
   font-weight: 400;
   color: black;
   font-size: 1rem;
 }
 
+.filters__sliders-vacancies .form-group,.filters__sliders-hours .form-group {
+  max-width: 250px;
+  min-width: 250px;
+}
+
+.filters input[type = 'range'] {
+  accent-color: var(--color-orange);
+}
+
+.filters__sliders>* {
+  flex: none;
+}
+
+.filter__sliders-hours label {
+  max-width: 15rem;
+}
 
 .filters .filters__button {
   display: flex;
   justify-content: right;
   width: 85vw;
-  margin-top: 4rem;
 }
 
 .filters .filters__button a {
